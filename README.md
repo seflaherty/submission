@@ -3,10 +3,9 @@
 
 ## An Architectural Kata
 
-__Event by [O'Reilly Learning](https://learning.oreilly.com/)__
-__Hosted by [Neal Ford](http://nealford.com/)__
-
-__[Architectural Katas Series](https://learning.oreilly.com/attend/architectural-katas/0636920054100/0636920054099/)__
+__Event by [O'Reilly Learning](https://learning.oreilly.com/)__  
+__Hosted by [Neal Ford](http://nealford.com/)__  
+__[Architectural Katas Series](https://learning.oreilly.com/attend/architectural-katas/0636920054100/0636920054099/)__  
 __Series schedule:__
 
 * Event 1: Kickoff - April 21, 2021 
