@@ -9,7 +9,7 @@ Proposed
 ## Context
 
 <!-- The issue motivating this decision, and any context that influences or constrains the decision. -->
-The legacy system supporting customer-facing technology experts (the "SysOps Squad") has negatively impacted the business by assigning the incorrect expert consultant to a customer location without the expertise necessary to satisfactorily address the problem, or a larger system failue where useful information is not surfaced in time to successfully answer the customer trouble ticket. What is the appropriate solution for addressing the issue with dispatch of an incorrect expert for the trouble ticket.
+The legacy system supporting customer-facing technology experts (the "SysOps Squad") has negatively impacted the business by assigning the incorrect expert consultant to a customer location without the expertise necessary to satisfactorily address the problem, or a larger system failure where useful information is not surfaced in time to successfully answer the customer trouble ticket. What is the appropriate solution for addressing the issue with dispatch of an incorrect expert for the trouble ticket?
 
 ## Decision Drivers
 
@@ -35,17 +35,16 @@ The legacy system supporting customer-facing technology experts (the "SysOps Squ
 
 *[Replacement]*
 
-* AWS Messaging Services
+* AWS Event Queue Management \ Messaging Services
 	* Simple Queue Service (SQS)
 		* Serverless: High scale and low cost.
 		* Durable. Supports Dead Letter Queues and re-delivery.
 	* Simple Notification Service (SNS)
 		* Supports delivery to multiple consumers.
 			* Does not support delivery guarantees.
-		* Supports mobile push notifications and SMS text messages.
-		
-	
-* AWS Event Queue Management
+		* Supports mobile push notifications and SMS text messages.	
+* Expert-to-ticket matching service.
+
 
 
 <!-- https://ndcworkshops.com/slot/converting-a-monolithic-app 
