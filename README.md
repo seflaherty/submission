@@ -33,7 +33,12 @@ Safer.Architecture (aka Team 14) is to propose and justify a software architectu
 
 
 ## Documentation 
-tktktk
+A few architectural design records were crafted during this kata:
+* [Record of Architecture Decisions](./docs/architecture/decisions/0001-record-architecture-decisions.md)
+* [Customer to SysOps Squad Workflow](./docs/architecture/decisions/0002-customer-to-sysops-ticket-wf.md)
+* [Ticket Closure Workflow](./docs/architecture/decisions/0003-customer-to-sysops-ticket-close-wf.md)
+* [Customer Onboarding Workflow](./docs/architecture/decisions/0004-customer-onboarding.md)
+* [Defining the Expert Assignment Engine](./docs/architecture/decisions/0005-expert-assignment-engine.md)
 
 
 ## Getting Help 
